@@ -29,3 +29,4 @@ if __name__ == "__main__":
     un = [(10 ** k) / math.factorial(k) for k in range(0, 200)]
     plt.plot(un)
     plt.savefig("exo3Un.png")
+
